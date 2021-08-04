@@ -38,18 +38,19 @@ export default function Portfolio() {
           <div className="card">
             
             <div className="card-image">
-              <img src="assets\img\laugh_gen.PNG" />
+              <img src="assets\img\recipe.PNG" />
               <span className="card-title" style={{backgroundColor: "black"}}>Recipe Cookbook</span>
             </div>
 
             <div className="card-content">
-              <p style={{color: "black"}}>This was a group project created with fellow classmates. We created a a simple
-              joke and meme generator that calls on certain APIs to produce images(memes) or jokes.</p>
+              <p style={{color: "black"}}>
+                This was an app made to help find recipes that you want. In the future it is supposed to store your own recipes.
+                </p>
             </div>
 
             <div className="card-action">
-              <a target="_blank" href="https://github.com/Alkathos/Laugh-Generator">GitHub</a>
-              <a target="_blank" href="https://alkathos.github.io/Laugh-Generator/">Git Pages</a>
+              <a target="_blank" href="hhttps://github.com/Alkathos/Recipe-Project">GitHub</a>
+              <a target="_blank" href="https://cryptic-dusk-68462.herokuapp.com/">Heroku</a>
             </div>
 
           </div>

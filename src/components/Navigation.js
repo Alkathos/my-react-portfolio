@@ -3,7 +3,7 @@ import React from "react";
 const Navigation = ({handlePageChange}) => {
     return (
         <div>
-            <nav>
+            <nav className={{backgroundColor: "#22222"}}>
                 <div className="nav-wrapper">
                 <a href="#home" 
                 onClick={()=> handlePageChange('Home')} 
