@@ -4,10 +4,10 @@ const Navigation = ({handlePageChange}) => {
     return (
         <div>
             <nav>
-                <div class="nav-wrapper">
+                <div className="nav-wrapper">
                 <a href="#home" 
                 onClick={()=> handlePageChange('Home')} 
-                class="brand-logo">
+                className="brand-logo">
                 Fernando Zaldivar
                 </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">

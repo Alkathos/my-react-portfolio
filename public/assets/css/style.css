@@ -1,0 +1,76 @@
+:root {
+    --backgroundColor: #222222;
+    --textColor: ivory;
+  }
+  
+  body {
+      background-color: var(--backgroundColor);
+      color: var(--textColor);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, "Helvetica Neue", sans-serif;
+  }
+  
+  .img-bg {
+    background-size: cover;
+  }
+  
+  .card{
+    width: 25%
+  }
+  
+  .home > p {
+      padding-left: 5px;
+      font-weight: 300;
+      letter-spacing: 0.05em;
+      color: var(--textColor);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, "Helvetica Neue", sans-serif;
+  }
+  
+  .photoOfMe {
+    height: 650px;
+    width: 480px;
+  }
+  
+  footer {
+    padding: 3px 0;
+    text-align: center;
+  }
+  
+  .social > li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  
+  a:hover {
+    text-shadow: 0 0px 10px ivory;
+    color: var(--textColor);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .detailContainer {
+      flex-direction: column;
+    }
+  
+    .container {
+      flex-direction: column;
+      margin-top: 15%;
+    }
+  
+    .row {
+      flex-direction: column;
+      padding: 40px;
+      width: 300%;
+    }
+  
+    nav {
+      text-align: center;
+    }
+  
+    .details > p {
+      width:100%;
+    }
+  
+    .photoOfMe {
+      object-fit: cover;
+    }
+  }
