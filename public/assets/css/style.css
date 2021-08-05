@@ -61,9 +61,14 @@
       padding: 40px;
       width: 300%;
     }
+
+    .navbar {
+      background-color: var(--backgroundColor);
+    }
   
     nav {
       text-align: center;
+      
 
     }
   
