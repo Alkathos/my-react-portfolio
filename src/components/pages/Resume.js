@@ -5,11 +5,11 @@ export default function Resume() {
     <div>
       <h1>Resume</h1>
       <p>
-        You can download my resume <br/>
+        You can download my resume below.<br/>
         <br/>
         <br/>
       </p>
-      <a className="waves-effect waves-light btn" style={{backgroundColor: "blue-grey darken-3"}} >My Resume</a>
+      <a target="_blank" href="https://drive.google.com/file/d/1Zs7JS19L3Qyy9Kmlk-zu17PejTDoudSA/view?usp=sharing" className="waves-effect waves-light btn" download>My Resume</a>
     </div>
   );
 }
